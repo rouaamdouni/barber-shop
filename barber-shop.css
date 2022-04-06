@@ -1,0 +1,617 @@
+:root {
+    --color-beige: #D5B981;
+    --color-blue: #1d2434;
+    --font-family: sans-serif;
+    --color-background:rgb(244, 241, 241);
+}
+
+/* css reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: var(--font-family);
+
+}
+
+img {
+    width: 100%;
+}
+
+/** landing page CSS */
+.landing-page {
+    background: var(--color-beige);
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.l-description * {
+    padding: 20px 0;
+}
+
+.l-description {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.l-description-content {
+
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+
+}
+
+.l-description-content button {
+    border: 4px solid var(--color-blue);
+    background: transparent;
+    width: 250px;
+    padding: 15px 25px;
+    font-size: 25px;
+}
+
+
+
+.l-description-content h1 {
+    font-size: 50px;
+    color: var(--color-blue);
+    font-weight: bold;
+}
+
+.l-description-content p {
+    font-size: 26px;
+    color: var(--color-blue);
+}
+
+.l-image img {
+    width: 600px;
+}
+
+/** about section **/
+
+.about {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img {
+    width: 30%;
+    box-shadow: -60px -50px var(--color-blue);
+    outline: 1px solid white;
+    outline-offset: 25px;
+}
+
+.about-description p,
+.about-description h1,
+.about-description span {
+    margin: 10px 0;
+}
+
+.about-description h1 {
+    margin: 20px 0 50px 0;
+}
+
+
+.about-description {
+    width: 55%;
+    margin-left: 30px;
+}
+
+.about-description h1 {
+    font-size: 72px;
+    color: var(--color-blue);
+    font-weight: bold;
+}
+
+.about-description span {
+    color: rgb(90, 88, 88);
+    font-weight: bold;
+}
+
+.about-description p {
+    font-size: 26px;
+    color: gray
+}
+
+
+.about-img .border {
+    border: 4px solid white;
+    width: 100%;
+    height: 200px;
+    background: black;
+    position: relative;
+    top: 20px;
+}
+
+.about-description :last-child {
+    margin-top: 50px;
+    border: 4px solid var(--color-blue);
+    background: transparent;
+    width: 250px;
+    padding: 15px 25px;
+    font-size: 25px;
+}
+
+.about-img .border {
+    border: 4px solid white;
+    width: 100%;
+    background: rgb(34, 34, 34);
+    position: relative;
+    top: 20px;
+
+
+}
+/* services page*/
+.services-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.service-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    text-align: center;
+
+
+}
+
+.service-description p {
+    font-family: var(--font-family);
+    font-size: 20px;
+    color: grey;
+    font-weight: bold;
+}
+
+.service-description h1 {
+    font-family: var(--font-family);
+    font-size: 75px;
+    font-weight: bold;
+}
+
+
+.service-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+
+}
+
+.service {
+    width: 350px;
+    margin-left: 30px;
+
+}
+
+.back1 {
+
+    background-color: rgb(244, 241, 241);
+    width: 350px;
+}
+
+.service1 img {
+    width: 350px;
+    outline: 1px solid white;
+    outline-offset: -15px;
+
+}
+
+.back1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 250px;
+}
+
+.back1 * {
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.back1 button {
+    border: 2px solid var(--color-blue);
+    background: transparent;
+    width: 150px;
+    padding: 15px 25px;
+    font-size: 15px;
+
+
+}
+
+/*prices page*/
+.price-page{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.prices-title{
+    width:75%;
+   
+}
+.prices-title *{
+    margin-top:20px;
+    text-align: center;
+
+}
+.prices-title p{
+    font-family: var(--font-family);
+    font-size: 20px;
+    color: grey;
+    font-weight: bold;
+}
+.prices-title h1{
+    font-family: var(--font-family);
+    font-size: 75px;
+    font-weight: bold;
+}
+.price1{
+    display:flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+.price1 img{
+    width:150px;
+    outline: 1px solid white;
+    outline-offset: -15px;
+}
+.back{
+    background-color: rgb(244, 241, 241);
+    width:150px;
+    text-align: center;
+    
+}
+.back p{
+    font-family: var(--font-family);
+    font-size: 15px;
+    
+}
+.back h3{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.prices-images {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+/*client page*/
+
+.client-page{
+    height: 100vh;
+    margin-top: 200px;
+    position: relative;
+    z-index: 0;
+    
+   
+}
+.testimonial {
+    background: linear-gradient(to bottom, rgba(29, 36, 52, 0.6) 0%, rgba(29, 36, 52, 0.9) 100%),url(img/testimonial-bg.jpg);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+
+    
+}
+.testimonial-content{
+    position:absolute;
+    z-index: 2;
+    top:130px;
+    width: 40%;
+    left:400px;
+    
+
+    
+}
+.testimonial-content *{
+    margin-top: 25px;
+}
+.testimonial-content img{
+    width:90px;
+    height:90px;
+    border-radius: 250px;
+}
+.intro{
+    font-family: var(--font-family);
+    font-size: 15px;
+    color:rgb(219, 215, 215);
+    text-align: left;
+}
+.client-name{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:var(--color-beige);
+    font-size: 20px;
+}
+.profession{
+    color:rgb(219, 215, 215);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    margin-top: 6px;
+    
+}
+/*barber team*/
+.barber-team{
+    height:80vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.barberteam-title{
+    width: 50%;
+    font-family: var(--font-family);
+    text-align: center;
+    
+}
+.barberteam-title h1 {
+ font-size: 60px;
+}
+.barberteam-title span{
+    font-size: 18px;
+    color: grey;
+    font-weight: bold;
+}
+.barbers{
+    display: flex;
+    align-items: center;
+}
+.barber-img{
+    position: relative;
+    z-index: 1;
+
+}
+.barber-img img{
+outline: 2px solid white;
+outline-offset: -20px;
+}
+.barber-idendity{
+    background-color: var(--color-background);
+    width:250px;
+    height:90px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    bottom:40px;
+    left:25px;
+}
+.barber-idendity *{
+    padding-bottom: 8px;
+}
+.barber-idendity p {
+font-size: 15px;
+font-weight: bold;
+}
+.barber-idendity span {
+    font-size: 15px;
+    color: grey;
+    }
+.barber-containor{
+    margin-left: 20px;
+}
+/*formulaire */
+.formulaire{
+    background-color: var(--color-blue);
+    height: 80vh;
+    display: flex;
+    
+}
+.form{
+    margin-top: 150px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+
+    
+}
+.form-img img{
+    height: 80vh;
+   
+}
+.element textarea{
+    color:grey;
+    font-family: "Verdana";
+}
+.element *{
+    height:max-content;
+    background-color: transparent;
+    border:2px solid var(--color-beige);
+    width:800px;
+    margin-bottom:30px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    font-family: "verdana";
+}
+
+.element button{
+    border: 2px solid var(--color-beige);
+    color: var(--color-beige);
+    font-size: 20px;
+    width:180px;
+    height:40px;
+}
+
+/*blog section */
+.blog{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog-title{
+    margin-top: 50px;
+    width:50%;
+    text-align: center;
+}
+.blog-title h1{
+    font-size: 60px;
+}
+.blog-title p{
+ color:grey;
+ font-size: 15px;
+ font-weight: bold;
+ padding-bottom: 20px;
+
+}
+
+.article{
+    margin-left: 25px;
+}
+.article img{
+    width:350px;
+    outline:2px solid white;
+    outline-offset: -15px;
+}
+.blog-content{
+    display: flex;
+    margin-top:40px;
+    font-family:"verdana";
+}
+.article-content{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color:var(--color-background);
+    width:350px;
+}
+.content{
+    
+    font-size: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+}
+.lear-more{
+    font-weight: bold;
+    
+}
+.infos{
+    margin-left: 20px;
+}
+
+/*contact page*/
+.contact{
+    height:50vh;
+    background-color: var(--color-blue);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.adresse{
+    width:400px;
+    margin-top: 20px;
+    
+}
+
+.cont{
+    color:grey;
+    padding-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+.links{
+    width:400px;
+    margin-top: 50px;
+    color:grey;
+}
+.links .cont1{
+    padding-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+.newsletter{
+    width:400px;
+    margin-top: 50px;
+    color:grey;
+    
+}
+.newsletter input{
+    width:300px;
+    height: 35px;
+    padding-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+.newsletter button{
+    border: 2px solid black;
+    width: 90px;
+    height: 45px;
+    color: black;
+    background-color: white;
+    padding-top:13px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.newsletter *{
+    padding-bottom: 20px;
+}
+.champdesaisie{
+    display: flex;
+    align-items: center;
+}
+
+.media{
+    display: flex;
+    align-items: center;
+    margin-top:20px;
+    
+    
+}
+.media *{
+    margin-left: 5px;
+}
+
+.icons i{
+   background-color: var(--color-beige);
+   margin-left: 5px;
+}
+
+.titre{
+    font-family: 'Courier New', Courier, monospace;
+   color:var(--color-beige);
+   font-weight:bold;
+   font-size:20px;
+   margin-bottom: 40px;
+}
+
+
+
+
+
+
